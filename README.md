@@ -35,5 +35,29 @@
 
   
 
+# 将本地项目上传到新的github库
 
++ 首先初始化文件
 
+  ```shell
+  git init	
+  ```
+
+  
+
++ 设置上传的文件 库 
+
+  ```shell
+  git remote add origin https://github.com/lqrDream/test.git
+  ```
+
+  
+
++ 提交到库
+
+  ```shell
+  git push origin master
+  git push --set-upstream origin master 设置使记住相应的别名 和分支,  可以直接 git push 
+  ```
+
+  
