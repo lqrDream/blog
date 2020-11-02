@@ -21,7 +21,7 @@
 
   ```shell
   git status 查看 文件状态 
-  git add 添加上传文件
+  git add 添加上传文件   git add  * 添加所有文件
   git commit -m  "文件描述"  
   ```
 
