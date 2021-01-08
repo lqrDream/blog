@@ -218,6 +218,8 @@
   git fetch -p #拉取远程分支时，自动清理 远程分支已删除，本地还存在的对应同名分支。
   ```
   
+  
+  
   ### 分支合并
   
   ```shell
@@ -227,12 +229,15 @@
   git merge test #将test分支合并到当前分支
   ```
   
+  
+  
   ### 查看分支日志
   
   ```shell
   git reflog查出要回退到merge之前的版本号
   git reflog 
   git reset --hard 版本号 回到合并之前的版本
+  gitk  显示log面板
   ```
   
   

@@ -1,0 +1,62 @@
+{
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "editor.accessibilitySupport": "off",
+    "[less]": {
+        "editor.suggest.insertMode": "replace"
+    },
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "compile-hero.config": "",
+    "less.compile": {
+        "compress": false,
+        "sourceMap": false,
+        "out": true,
+        "outExt": ".css",
+    },
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "php.validate.executablePath": "",
+    "workbench.iconTheme": "vscode-icons",
+    "sync.gist": "ff248fc686c9f4e55bbd5bdf0bf7b0e6",
+    "editor.codeActionsOnSave": null,
+    // tab 大小为2个空格
+    "editor.tabSize": 2,
+    // 100 列后换行
+    "editor.wordWrapColumn": 100,
+    // 保存时格式化
+    "editor.formatOnSave": true,
+    // 开启 vscode 文件路径导航
+    "breadcrumbs.enabled": true,
+    // prettier 设置强制单引号
+    "prettier.singleQuote": true,
+    // prettier 设置语句末尾加分号
+    "prettier.semi": false,
+    // 选择 vue 文件中 template 的格式化工具
+    "vetur.format.defaultFormatter.html": "prettyhtml",
+    // 显示 markdown 中英文切换时产生的特殊字符
+    "editor.renderControlCharacters": true,
+    // 让函数(名)和后面的括号之间加个空格
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    // 让vue中的js按编辑器自带的ts格式进行格式化
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    // vetur 的自定义设置
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            "singleQuote": true,
+            "semi": false
+        }
+    },
+    // Ctrl + Shift + F 快捷键设置（依照vetur格式化代码）
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    }
+}
