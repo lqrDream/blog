@@ -1,5 +1,11 @@
 # git 的使用
 
+git工作流程：
+
++  当遇到合并冲突的时候必须解决合并冲突 
+  + 拉下来最新master分支的代码 
+  + 解决冲突 重新push
+
 + 使用思想，首先去github 克隆 一个项目到本地 为工作区  
 
   ```shell
@@ -34,6 +40,13 @@
   ```
 
   
+  
++ 打开Git命令页面，执行git命令脚本：修改设置，解除ssl验证
+
+  ```
+  Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决
+  git config --global http.sslVerify "false"
+  ```
 
 # 将本地项目上传到新的github库
 
@@ -258,7 +271,7 @@
   git branch -a #列出所有分支
   git branch -v #查看各个分支最后一个提交对象的信息
   git branch --merge #查看已经合并到当前分支的分支
-  git branch --no-merge #查看为合并到当前分支的分支
+  git branch --no-merge #查看未合并到当前分支的分支
   ```
   
   
