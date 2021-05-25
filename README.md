@@ -7,9 +7,11 @@ git工作流程：
 ```
 + 必须 commit 
 + 然后 merge 在push
-
-
-
+```shell
+  git add .
+  git commit -m ''
+  git push
+```
 
 
 +  当遇到合并冲突的时候必须解决合并冲突 
