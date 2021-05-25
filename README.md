@@ -1,6 +1,16 @@
 # git 的使用
 
 git工作流程：
++ 当遇到远程代码与本地代码冲突时
+```shell
+  Please commit your changes or stash them before you merge.
+```
++ 必须 commit 
++ 然后 merge 在push
+
+
+
+
 
 +  当遇到合并冲突的时候必须解决合并冲突 
   + 拉下来最新master分支的代码 
